@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top">
+  <a class="navbar-brand order-first" [routerLink]="['/']" data-toggle="tooltip" data-placement="bottom" title="Inicio">
+    <span class="inline">
+      <img class="img-rounded" width="260" height="35" alt="" src="assets/images/fast-task.png">
+      <!-- <span class="siteName pl-2">Fast Task</span> -->
+    </span>
+  </a>
+
+  <div class="navbar-nav mr-auto" id="navbarCollapse" *ngIf="showMenu" [class.collapse]="collapse">
+    <ul class="navbar-nav ml-auto text-center">
+      <li class="nav-item">
+        <a routerLink="Fast-Task/servicos" class="nav-link" routerLinkActive="active" (click)="selectAndClose()">
+          Serviços
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="Fast-Task/cadastro" class="nav-link" routerLinkActive="active" (click)="selectAndClose()">
+          Cadastro
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="Fast-Task/quemSomos" class="nav-link" routerLinkActive="active" (click)="selectAndClose()">
+          Quem Somos
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="Fast-Task/login" class="nav-link" routerLinkActive="active" (click)="selectAndClose()">
+          Login
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

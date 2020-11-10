@@ -1,0 +1,21 @@
+<section id="section-primaria">
+  <form id="form-cadastro-cliente" onsubmit="">
+    <p class="titulos-formularios">Cadastro Serviços</p>
+    <div class="formulario-row">
+      <label for="Nomedoserviço" class="label-class">Nome do serviço:</label>
+      <input id="Nomedoserviço" class="text-search" name="search" />
+    </div>
+    <div class="formulario-row">
+      <label for="descserviço" class="label-class">Descrição do serviço:</label>
+      <input id="descserviço" class="texto-descricao" name="search" />
+    </div>
+    <div class="formulario-row">
+      <label for="Preço" class="label-class">Preço: R$</label>
+      <input id="Preço" class="text-search" name="search" />
+    </div>
+    <div class="formulario-row">
+      <button type="button" class="btn btn-light btn-wide btn-sm" style="float: right;"
+        (click)="cadastrarServico()">Cadastrar Serviço</button>
+    </div>
+  </form>
+</section>

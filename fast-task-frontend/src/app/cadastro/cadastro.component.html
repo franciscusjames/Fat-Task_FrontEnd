@@ -1,0 +1,14 @@
+<div _ngcontent-tnq-c7="" class="form-row form-group">
+  <ul class="nav nav-tabs">
+    <li class="nav-item" style="cursor: pointer;">
+      <a class="nav-link" [ngClass]="{ 'active': showCadastroCliente }" (click)="toggleCadastroCliente()">Cadastro
+        Cliente</a>
+    </li>
+    <li class="nav-item" style="cursor: pointer;">
+      <a class="nav-link" [ngClass]="{ 'active': showCadastroServico }" (click)="toggleCadastroServico()">Cadastro
+        Serviço</a>
+    </li>
+  </ul>
+</div>
+<app-servico-add *ngIf="showCadastroCliente"></app-servico-add>
+<app-servico-search *ngIf="showCadastroServico"></app-servico-search>

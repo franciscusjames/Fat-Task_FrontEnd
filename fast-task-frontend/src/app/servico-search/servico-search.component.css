@@ -1,0 +1,288 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: Roboto;
+	font-size: 16px;
+}
+
+button, input, textarea {
+	background: none;
+	border: 0;
+	outline: 0;
+}
+
+#page-container header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+
+	height: 80px;
+}
+
+#page-container header ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+
+	padding: 0 110px;
+
+	width: 100%;
+	height: 100%;
+
+
+	list-style: none;
+}
+
+#page-container header ul li {
+	font-weight: 500;
+	font-size: 22px;
+
+	cursor: pointer;
+
+	user-select: none;
+
+	position: relative;
+
+}
+
+
+#page-container header ul li .menu {
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	width: -10px;
+	height: 110px;
+
+	position: absolute;
+	right: 0;
+
+	background: #fff;
+	border: 1px solid #000;
+	margin-top: 8px;
+
+	display: none;
+}
+
+#page-container header img {
+	height: 46px;
+
+	margin-left: 12px;
+}
+
+#page-container section {
+	display: flex;
+	height: 80px;
+	margin-bottom: 50px;
+}
+
+#page-container section form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+}
+#page-container #page-center {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	height: 100%;
+}
+#page-container #page-center #form-inicial{
+	display: flex;
+	flex-direction: column;
+
+}
+#page-container #page-center #form-inicial #div-page-center{
+	display: flex;
+	flex-direction: row;
+	padding-top: 10px;
+}
+#page-container #page-center #form-inicial #div-form-login{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: center;
+	padding-bottom: 5px;
+}
+#page-container #page-center #form-inicial #div-form #div-senha {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	padding-top: 5px;
+}
+
+#page-container section form label {
+	color: #404040;
+}
+#page-container #section-primaria #form-cadastro-cliente .label-class{
+	color: #404040;
+	width: 300px;
+}
+#page-container #section-primaria #form-cadastro-cliente .titulos-formularios {
+	color: #000;
+	width: 500px;
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	justify-content: center;
+	text-decoration: underline;
+}
+
+#page-container section form .text-search {
+	background-color: #fff;
+	border-radius: 2px;
+
+	max-width: 433px;
+	width: 100%;
+	height: 34px;
+
+	margin: 0 8px;
+	padding: 0 8px;
+
+	border: 1px solid #999;
+}
+
+#page-container section form .text-login {
+	background-color: #fff;
+	border-radius: 2px;
+
+	width: 250px;
+	height: 34px;
+
+	margin: 0 8px;
+	padding: 0 8px;
+
+	border: 1px solid #999;
+}
+
+
+#page-container section form .button-search {
+	background-color: #0caa41;
+	color: #fff;
+
+	max-width: 89px;
+	width: 100%;
+	height: 34px;
+
+	cursor: pointer;
+}
+
+#page-container #page-center #div-page-center .button-login {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid;
+	margin: 0 10px;
+	width: 150px;
+	height: 34px;
+
+	cursor: pointer;
+}
+#page-container #page-center #figure-section{
+	margin-right: 100px;
+}
+#page-container #text-center  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 80px;
+}
+#page-container #page-fim {
+	height: 100px;
+	background: #0C31EB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	margin: 40px;
+	color: #fff;
+}
+#page-container section #form-cadastro-cliente {
+	display: flex;
+	flex-direction: column;
+}
+#page-container section #form-cadastro-cliente .formulario-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+#page-container #section-primaria{
+	height: 500px;
+	text-align: center;
+	align-items: center;
+
+}
+#page-container #section-primaria #form-cadastro-cliente .texto-descricao {
+background-color: #fff;
+	border-radius: 2px;
+	max-width: 433px;
+	width: 100%;
+	height: 94px;
+	margin: 0 8px;
+	padding: 0 8px;
+	border: 1px solid #999;
+}
+#page-container #section-primaria #form-cadastro-cliente .button-cadastro {
+	background-color: #000;
+	color: #F3CE10;
+	border: 1px solid;
+	margin: 0 10px;
+	width: 200px;
+	height: 34px;
+
+	cursor: pointer;
+}
+#page-container #QuemSomos {
+	align-items: left;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+}
+#page-container #QuemSomos #FastTask-Somos {
+	font-size: 40px;
+	display: inline-flex;
+	margin-top: 40px;
+}
+#page-container #QuemSomos #FastTask-P1 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+#page-container #QuemSomos #FastTask-P2 {
+	font-size: 20px;
+	font-weight: 500;
+}
+#page-container #Pagina-Serviço {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+	flex-direction: column;
+}
+#page-container #Pagina-Serviço #tabela-serviços{
+	max-width: 800px;
+	width: 100%;
+	max-height: 350px;
+	height: 100%;
+	margin-top: 25px;
+	border-color: blue;
+	margin-bottom: 130px;
+}
+#page-container #Pagina-Serviço #vitrine{
+	font-size: 30px;
+	font-weight: 500;
+}

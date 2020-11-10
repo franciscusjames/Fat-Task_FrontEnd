@@ -1,0 +1,19 @@
+.nav-collapse.collapse {
+    height: auto;
+  }
+@media screen and (max-width: 991px)
+  {
+  .navbar {
+    background-color:#2d73cf !important;
+    height:auto!important;
+    padding: 8px 16px!important;
+  }
+}
+ @media screen and (min-width: 992px)
+  {
+  .navbar {
+    background-color:#f8fafc !important;
+    height:54.406px!important;
+    padding: none!important;
+  }
+}
